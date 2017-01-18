@@ -14,13 +14,13 @@ class Node{
     Node* node;
     int value;
     public:
-    Node();
-    ~Node();
-    void setNext(Node* newnode);
-    Student* getStudent();
-    Node* getNext();
-    void setValue(int newValue);
-    int getValue();
+    Node(); //constructor
+    ~Node(); //destructor
+    void setNext(Node* newnode); //set the next pointer to the corresponding node pointer
+    Student* getStudent(); //get student pointer
+    Node* getNext(); //get next Node pointer
+    void setValue(int newValue); //sets value
+    int getValue(); //gets value
 };
 
 #endif
